@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    stream:
+      default-binder: local-kafka
+      bindings:
+        inbound:
+          binder: local-kafka
+          destination: inbound
+          contentType: application/json
+      binders:
+        local-kafka:
+          type: kafka
+          environment:
+            spring:
+              cloud:
+                stream:
+                  kafka:
+                    binder:
+                      brokers: localhost:9092
