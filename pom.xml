@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.tesco</groupId>
+	<groupId>com.example</groupId>
 	<artifactId>notification</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>notification</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Notification service(Routing incoming Kafka messages to web socket)</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

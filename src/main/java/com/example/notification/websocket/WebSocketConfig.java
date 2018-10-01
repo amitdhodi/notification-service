@@ -1,4 +1,4 @@
-package com.tesco.notification.websocket;
+package com.example.notification.websocket;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;

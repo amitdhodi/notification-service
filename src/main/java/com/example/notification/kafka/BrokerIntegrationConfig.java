@@ -1,4 +1,4 @@
-package com.tesco.notification.kafka;
+package com.example.notification.kafka;
 
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.context.annotation.Configuration;

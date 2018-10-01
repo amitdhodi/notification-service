@@ -1,4 +1,4 @@
-package com.tesco.notification.kafka;
+package com.example.notification.kafka;
 
 public class Message {
 

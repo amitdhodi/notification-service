@@ -1,4 +1,4 @@
-package com.tesco.notification.kafka;
+package com.example.notification.kafka;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.stream.annotation.StreamListener;

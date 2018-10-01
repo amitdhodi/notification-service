@@ -1,4 +1,4 @@
-package com.tesco.notification;
+package com.example.notification;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
