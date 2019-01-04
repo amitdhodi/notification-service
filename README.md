@@ -5,7 +5,7 @@ There might be a need of propagating the messages received by an application on 
 Since, websockets receive messages without the need of refreshing the page. This use case fits well if we want to enable real 
 time notifications in our application.
 
-# How to run the project
+# How to test the functionality
 1. Clone the repo https://github.com/amitdhodi/notification-service.git and download the code locally
 2. Import the project as Maven project in your IDE
 3. Download(if not done) and start local Kafka cluster. Reference link to do the same(http://kafka.apache.org/quickstart).
