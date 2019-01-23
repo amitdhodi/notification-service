@@ -21,4 +21,5 @@ producer can be used to send the message. The message json format is:
 }
 8. Once the message is posted successfully, the URL http://localhost:8080 must reflect the json message inside the text area
 without the need of refreshing the page.
-9. This shows the real time notifications on browser originated by a kafka message. 
+9. This shows the real time notifications on browser originated by a kafka message.
+10.test 
