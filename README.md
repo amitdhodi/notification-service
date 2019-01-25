@@ -15,10 +15,12 @@ Only perform Step 1(Download the code) & 2(Start the server) using the above lin
 6. This would render an empty text area.
 7. Send message to kafka topic "inbound". Either Kafka Tool can be used (http://www.kafkatool.com/download.html) or command line
 producer can be used to send the message. The message json format is:
+```
 {
  "firstName":"foo",
  "lastName":"bar"
 }
+```
 8. Once the message is posted successfully, the URL http://localhost:8080 must reflect the json message inside the text area
 without the need of refreshing the page.
 9. This shows the real time notifications on browser originated by a kafka message.
